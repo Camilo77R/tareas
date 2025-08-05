@@ -1,7 +1,6 @@
-// leer 2 numeros y hacer operaciones basicas
-
- let prompt = require('prompt-sync')();
-
+ 
+ const $text = document.querySelector(".text");
+ 
  let n1 = parseFloat(prompt("Ingrese un numero    "));
  let n2 = parseFloat(prompt("Ingrese un numero    "));
  let operacion = prompt("Que tipo de operacin quieres realizar ");
@@ -22,7 +21,9 @@
     }
   }
 
+// document.writeln(calculadora(n1,n2, operacion));
+ result =  calculadora(n1,n2, operacion);
 
-  console.log(calculadora(n1,n2, operacion));
+$text.innerHTML = `EL resultado es ${result}`;
 
-
+//   console.log();
