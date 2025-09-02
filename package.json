@@ -1,6 +1,26 @@
 {
   "dependencies": {
     "prompt": "^1.3.0",
-    "prompt-sync": "^4.2.0"
-  }
+    "prompt-sync": "^4.2.0",
+    "type": "module"
+  },
+  "name": "cuartotrimestre",
+  "version": "1.0.0",
+  "main": "ejercicio.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camilo77R/tareas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Camilo77R/tareas/issues"
+  },
+  "homepage": "https://github.com/Camilo77R/tareas#readme",
+  "description": ""
 }
